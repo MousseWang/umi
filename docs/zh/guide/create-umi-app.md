@@ -4,7 +4,7 @@
 
 umi 通过 [create-umi](https://github.com/umijs/create-umi) 提供脚手架能力，包含：
 
-* **project**，通用项目脚手架，支持选择是否启用 TypeScript，以及 [umi-plugin-react](../plugin/umi-plugin-react.html) 包含的功能
+* **app**，通用项目脚手架，支持选择是否启用 TypeScript，以及 [umi-plugin-react](../plugin/umi-plugin-react.html) 包含的功能
 * **ant-design-pro**，仅包含 [ant-design-pro](https://github.com/ant-design/ant-design-pro) 布局的脚手架，具体页面可通过 [umi block](./block.html) 添加
 * **block**，区块脚手架
 * **plugin**，插件脚手架
@@ -23,7 +23,7 @@ $ yarn create umi
 
 > FAQ：如果提示 **create-umi 命令不存在**，你需要执行 `yarn global bin`，然后把 global bin 的路径添加到环境变量 `PATH` 中。
 
-选择 project，
+选择 app，
 
 ```bash
 ? Select the boilerplate type (Use arrow keys)
